@@ -2,6 +2,7 @@ import Footer from "@/components/ui/Footer";
 import GetStarted from "@/components/ui/GetStarted";
 import Hero from "@/components/ui/Hero";
 import Navbar from "@/components/ui/Navbar";
+import OurOffice from "@/components/ui/OurOffice";
 import ProfessionalQuestions from "@/components/ui/ProfessionalQuestions";
 import Section2 from "@/components/ui/Section2";
 import Section3 from "@/components/ui/Section3";
@@ -18,6 +19,7 @@ export default function Home() {
         <Section3 />
         <Section4 />
         <ProfessionalQuestions />
+        <OurOffice />
         <Section5 />
         <GetStarted />
       </main>
