@@ -12,22 +12,22 @@ export default function OurOffice() {
             Our Office
           </h3>
         </div>
-        <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-5">
-          <div className="w-full grid grid-cols-1 border border-background/20 rounded-lg overflow-hidden">
+        <div className="w-full xl:w-[70%] grid grid-cols-1 md:grid-cols-2 gap-5">
+          <div className="w-full flex flex-col border border-background/20 rounded-lg overflow-hidden">
             <Image
               src="/images/office1.jpeg"
               height={1000}
               width={1000}
               alt="office-image1"
               loading="lazy"
-              className="w-96 md:w-full md:h-96 object-cover"
+              className="w-full md:w-full max-md:h-96 object-cover"
             />
 
-            <div className="font-geist-sans text-lg flex justify-start items-start flex-col gap-5 p-5">
-              <h4 className="text-lg md:max-lg:text-2xl lg:text-3xl font-medium tracking-tight text-start">
+            <div className="font-geist-sans flex justify-start items-start flex-col gap-5 p-5">
+              <h4 className="text-base md:max-lg:text-xl lg:text-2xl font-medium tracking-tight text-start">
                 A Supportive Space for Meaningful Change
               </h4>
-              <div className="flex flex-col gap-4 text-sm lg:text-base">
+              <div className="flex flex-col gap-4 text-sm lg:text-base tracking-tight">
                 <p className="">
                   We understand that many clients are high-achieving,
                   insightful, and self-aware—but quietly struggling with
@@ -44,20 +44,20 @@ export default function OurOffice() {
               </div>
             </div>
           </div>
-          <div className="w-full grid grid-cols-1 border border-background/20 rounded-lg overflow-hidden">
+          <div className="w-full flex flex-col border border-background/20 rounded-lg overflow-hidden">
             <Image
               src="/images/office2.jpeg"
               height={1000}
               width={1000}
               alt="office-image2"
               loading="lazy"
-              className="w-96 md:w-full md:h-96 object-cover"
+              className="w-full md:w-full max-md:h-96 object-cover"
             />
             <div className="font-geist-sans text-lg flex flex-col gap-5 p-5">
-              <h4 className="text-lg md:max-lg:text-2xl lg:text-3xl font-medium tracking-tight text-start">
+              <h4 className="text-base md:max-lg:text-xl lg:text-2xl font-medium tracking-tight text-start">
                 A Calm, Private Environment
               </h4>
-              <div className="flex flex-col gap-4 text-sm lg:text-base">
+              <div className="flex flex-col gap-4 text-sm lg:text-base tracking-tight">
                 <p className="">
                   Our Santa Monica office is a quiet, private setting designed
                   to feel calm and grounding. With natural light, a comfortable
