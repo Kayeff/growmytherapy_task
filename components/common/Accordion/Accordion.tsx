@@ -26,7 +26,7 @@ export default function Accordion({ array }: AccordionComponentProps) {
             onClick={() => handleClick(item.id)}
             className="w-full flex items-center justify-between gap-2 cursor-pointer group"
           >
-            <h5 className="text-3xl tracking-tighter font-geist-sans font-medium group-hover:underline">
+            <h5 className="text-base md:max-lg:text-lg lg:max-xl:text-xl xl:text-3xl tracking-tighter font-geist-sans font-medium group-hover:underline">
               {item.question}
             </h5>
             {item.id === activeAccordion ? (
@@ -37,7 +37,7 @@ export default function Accordion({ array }: AccordionComponentProps) {
           </div>
           {item.id === activeAccordion && (
             <div>
-              <p className="text-lg tracking-tight font-geist-sans text-foreground/70">
+              <p className="text-sm md:max-lg:text-base lg:text-lg tracking-tight font-geist-sans text-foreground/70">
                 {item.answer}
               </p>
             </div>
